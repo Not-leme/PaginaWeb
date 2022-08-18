@@ -1,0 +1,26 @@
+:root{
+    --as-width: calc(100% - 80%);
+    --mn-heigth: calc(90%);
+    --mn-width: calc(90%);
+    --cl-words: #414141;
+    --bd-graf: 1px solid black;
+    --bg-graf: rgb(150, 150, 150);
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    
+}
+.Page{
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.Principal{
+    display: flex;
+    align-items: center;
+}
+
